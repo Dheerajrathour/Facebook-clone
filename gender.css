@@ -1,0 +1,43 @@
+body{
+    background-color: rgba(155, 153, 153,.5);
+}
+#outer{
+    text-align: center;
+    height: 400px;
+    width: 500px;
+    padding: 40px 0px 40px 0px;
+    margin: 90px 400px 0px 400px;
+    border-radius: 8px;
+    background-color: white;
+}
+input{
+    height: 45px;
+    font-size: 10px;
+    
+}
+label{
+    font-size: 20px;
+}
+button{
+    background-color: rgba(3, 3, 255,.9);
+    height: 40px;
+    width: 175px;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+label{
+    margin: 0px 50px 10px -20px;
+}
+input{
+    display: flex;
+    margin: 10px 0px 0px 100px;
+}
+#try{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}

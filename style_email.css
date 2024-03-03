@@ -1,0 +1,60 @@
+body{
+    background-color: rgba(155, 153, 153,.5);
+}
+div{
+    text-align: center;
+    height: 400px;
+    width: 500px;
+    padding: 40px 0px 40px 0px;
+    margin: 90px 400px 0px 400px;
+    border-radius: 8px;
+    background-color: white;
+    
+}
+h1{
+    color: blue;
+}
+
+#input{
+    background-color: rgba(202, 199, 199,.5);
+    height: 40px;
+    width: 350px;
+    border-radius:8px;    
+    margin: 0px 0px 20px 0px;
+    font-size: 18px;
+}
+#cancel{
+    background-color: white;
+    height: 40px;
+    width: 175px;
+    border-radius: 8px;
+    color: blue;
+    cursor: pointer;
+    border-color: blue;
+    font-size: 20px;
+    
+}
+#search{
+    background-color: rgba(3, 3, 255,.9);
+    height: 40px;
+    width: 175px;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-size: 20px;
+
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+#cancel:hover{
+    background-color: rgba(243, 9, 9,.9);
+    border-color: red;
+    color: white;
+}
+#search:hover{
+    background-color: green;
+}
